@@ -23,14 +23,14 @@ Here are some data access tests
 {{.i_am_not_here}}
 
 #repeats
-{(i){repeat me: .# .array.#}(.array)}
+{(i){repeat me: ..# ..array.#}(..array)}
 
 #escape
 this is #{} escaped
 
-[indent:-,level:3,align:r] this line gets deleted
+[[indent:-,level:3,align:r]] this line gets deleted
 whaaaaaaat?
-[indent:,level:0,align:c]
-[indent:    ,align:l]
+[[indent:,level:0,align:c]]
+[[indent:    ,align:l]]
 
 {{./advanced.blue}}
