@@ -1,0 +1,36 @@
+#this is a test of the bluedraft terminal text templating engine
+#lines that start with # are comments unless 'debug' is on
+
+#basic
+helol wald
+{(1,2,3){helol wald}}
+{(_){helol wald four times}(4)}
+
+
+Here are some basic color tests
+{(1,2,3){I am colorful}}
+{(2,3,4,_){I am colorful too}}
+{(grey:12){I am grey}}
+{(red){I am red}}
+{(i){I am inverted}}
+{(h){I am hidden}} <- hidden
+
+Here are some data access tests
+#access template data
+{{.message}}
+
+#access undefined data causes this line to be deleted unless 'debug' is on
+{{.i_am_not_here}}
+
+#repeats
+{(i){repeat me: .# .array.#}(.array)}
+
+#escape
+this is #{} escaped
+
+[indent:-,level:3,align:r] this line gets deleted
+whaaaaaaat?
+[indent:,level:0,align:c]
+[indent:    ,align:l]
+
+{{./advanced.blue}}

@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "calor": "0.0.x",
+    "has-color": "0.1.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pagodajosh/bluedraft.git"
