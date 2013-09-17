@@ -13,7 +13,7 @@ Here are some basic color tests
 {(grey:12){I am grey}}
 {(red){I am red}}
 {(i){I am inverted}}
-{(h){I am hidden}} <- hidden
+{(h|red){I am hidden with red background}} <- hidden
 
 Here are some data access tests
 #access template data
