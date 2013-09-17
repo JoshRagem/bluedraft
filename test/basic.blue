@@ -17,10 +17,10 @@ Here are some basic color tests
 
 Here are some data access tests
 #access template data
-{{.message}}
+{{..message}}
 
 #access undefined data causes this line to be deleted unless 'debug' is on
-{{.i_am_not_here}}
+{{..i_am_not_here}}
 
 #repeats
 {(i){repeat me: ..# ..array.#}(..array)}

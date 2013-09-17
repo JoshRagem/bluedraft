@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "calor": "0.0.x",
-    "has-color": "0.1.x"
+    "has-color": "0.1.x",
+    "qcnode": "1.5.x"
   },
   "repository": {
     "type": "git",
