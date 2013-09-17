@@ -3,6 +3,6 @@ fs = require('fs')
 
 stream = fs.createReadStream('./basic.blue')
 t = new Tok(stream,{debug:true})
-t.on('token',console.log)
+t.on('token',function(tok){console.log('token',tok.type)})
 
-console.log(t)
+//console.log(t)
