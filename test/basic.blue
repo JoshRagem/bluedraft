@@ -1,5 +1,6 @@
 #this is a test of the bluedraft terminal text templating engine
 #lines that start with # are comments unless 'debug' is on
+[[require:array,message]]
 
 #basic
 helol wald
@@ -32,5 +33,8 @@ this is #{{ escaped
 whaaaaaaat?
 [[indent:,level:0,align:c]]
 [[indent:    ,align:l]]
+
+#things don't actulaly have to be in the {{}}s
+./ultra_basic.blue
 
 {{./advanced.blue}}
