@@ -26,7 +26,7 @@ Here are some data access tests
 {(i){repeat me: ..# ..array.#}(..array)}
 
 #escape
-this is #{} escaped
+this is #{{ escaped
 
 [[indent:-,level:3,align:r]] this line gets deleted
 whaaaaaaat?
