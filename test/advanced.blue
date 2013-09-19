@@ -39,7 +39,7 @@ center
 [[indent:    ,align:l]]
 
 #things don't actulaly have to be in the {{}}s
-I should be able to #./ultra_basic.blue escape file paths
+I should be able to escape file paths #./ultra_basic.blue
 ./ultra_basic.blue
 
 end of the file
