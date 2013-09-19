@@ -2,7 +2,7 @@
 #lines that start with # are comments unless 'debug' is on
 [[require:array]]
 [[require:message]]
-[[indent:-,level:3]]
+[[indent:&,level:5]]
 
 #basic
 helol wald
@@ -39,5 +39,7 @@ center
 [[indent:    ,align:l]]
 
 #things don't actulaly have to be in the {{}}s
+I should be able to #./ultra_basic.blue escape file paths
 ./ultra_basic.blue
 
+end of the file
