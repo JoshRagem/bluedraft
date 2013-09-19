@@ -32,6 +32,7 @@ this is #{{ escaped
 [[indent:-,level:3,align:r]] this line gets deleted
 whaaaaaaat?
 [[indent:,level:0,align:c]]
+center
 [[indent:    ,align:l]]
 
 #things don't actulaly have to be in the {{}}s
