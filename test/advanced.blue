@@ -16,17 +16,18 @@ Here are some basic color tests
 {(grey:12){I am grey}}
 {(red){I am red}}
 {(i){I am inverted}}
-{(h|red){I am hidden with red background}} <- hidden
+{(h|red){I am hidden with {(6,0,0,i){red}} background}} <- hidden
 
 Here are some data access tests
 #access template data
 {{..message}}
+josh
 
 #access undefined data causes this line to be deleted unless 'debug' is on
 {{..i_am_not_here}}
 
 #repeats
-{(i){repeat me: ..# ..array.#}(..array)}
+{(i){repeat me: ..# ..array.# test}(..array)}
 
 #escape
 this is #{{ escaped
