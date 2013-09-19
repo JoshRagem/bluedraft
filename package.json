@@ -1,6 +1,6 @@
 {
   "name": "bluedraft",
-  "version": "0.0.0",
+  "version": "0.0.1-a",
   "description": "A terminal text templating engine",
   "main": "blue.js",
   "scripts": {
