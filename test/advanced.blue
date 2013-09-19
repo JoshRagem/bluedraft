@@ -33,6 +33,8 @@ josh
 {(i){repeat me: ..# ..@ ..*.message
 }(..object)} [[level:5]]
 
+{(cyan){..# ..@ [[level:0]]
+}(..test.one)}
 
 #escape
 this is #{{ escaped
