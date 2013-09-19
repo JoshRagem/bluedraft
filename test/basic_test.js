@@ -1,6 +1,6 @@
 var Parser = require('../lib/parser/Parser'),
 
-p = new Parser({template_dir:__dirname,debug:true})
+p = new Parser({template_dir:__dirname,debug:false})
 
 p.compileFiles(['basic.blue','advanced.blue'],function(err){
     //console.error(arguments)
