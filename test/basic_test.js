@@ -7,7 +7,23 @@ p.compileFiles(['basic.blue','advanced.blue','ultra_basic.blue'],function(err){
         console.error(err.stack)
         process.exit(1)
     }
-    p.Writer.writeFileWithData('basic.blue',{out:process.stdout,array:['hi'],message:'dumb',root:__dirname},function(err,stuff){
+    var args = {
+        out:process.stdout,
+        array:['hi','josh'],
+        object:{
+            'ko':'hi',
+            'two':'yo'
+        },
+        test:{
+            'one':[
+                   'dou',
+                   'tree'
+                   ]
+        },
+        message:'dumb',
+        root:__dirname
+    }
+    p.Writer.writeFileWithData('basic.blue',args,function(err,stuff){
         console.error('\n\n', err?err.stack:'done')
     })
 })

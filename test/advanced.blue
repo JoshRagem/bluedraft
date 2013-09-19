@@ -24,10 +24,15 @@ Here are some data access tests
 josh
 
 #access undefined data causes this line to be deleted unless 'debug' is on
-{{..i_am_not_here}}
+{{..i_am_not_here}} [[level:0]]
 
 #repeats
-{(i){repeat me: ..# ..array.# test}(..array)}
+{(i){repeat me: ..# ..@ ..*.message test
+}(..array)}
+#repeat object
+{(i){repeat me: ..# ..@ ..*.message
+}(..object)} [[level:5]]
+
 
 #escape
 this is #{{ escaped
