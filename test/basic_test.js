@@ -1,4 +1,4 @@
-var Parser = require('../lib/parser/Parser'),
+var Parser = require('../').Parser,
 
 p = new Parser({template_dir:__dirname,debug:false})
 
