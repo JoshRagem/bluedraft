@@ -1,3 +1,5 @@
+Last time I used this library it worked except for a bug where multiple layers of repeat loops did not execute all iterations of the loop correctly. This library is not maintained.
+
 bluedraft
 =========
 
